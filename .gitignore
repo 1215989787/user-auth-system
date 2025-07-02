@@ -52,7 +52,9 @@ Thumbs.db
 .pub-cache/
 .pub/
 build/
-*.lock
+# Keep important Flutter files
+!frontend/lib/
+!frontend/pubspec.lock
 
 # Logs
 *.log
